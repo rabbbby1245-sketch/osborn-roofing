@@ -28,9 +28,7 @@ export function ContactSection() {
 
         <h2 className="font-display mx-auto mt-6 max-w-4xl text-[2.3rem] leading-[0.94] font-extrabold tracking-[-0.03em] sm:text-7xl lg:text-8xl">
           <RevealWords text="READY FOR A" />{" "}
-          <span className="text-ember">
-            <RevealWords text="BETTER ROOF?" delay={0.15} />
-          </span>
+          <RevealWords text="BETTER ROOF?" delay={0.15} ember />
         </h2>
 
         <Reveal delay={0.25}>

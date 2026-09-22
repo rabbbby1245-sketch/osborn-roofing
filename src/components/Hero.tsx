@@ -56,9 +56,7 @@ export function Hero() {
         <h1 className="font-display max-w-4xl text-[2.6rem] leading-[0.94] font-extrabold tracking-[-0.03em] sm:text-7xl lg:text-8xl">
           <RevealWords text="QUALITY ABOVE." delay={0.4} />
           <br />
-          <span className="text-ember">
-            <RevealWords text="ROOFING BUILT TO LAST." delay={0.6} />
-          </span>
+          <RevealWords text="ROOFING BUILT TO LAST." delay={0.6} ember />
         </h1>
 
         <motion.p

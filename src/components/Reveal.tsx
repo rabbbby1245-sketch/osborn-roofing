@@ -31,10 +31,12 @@ export function RevealWords({
   text,
   className,
   delay = 0,
+  ember = false,
 }: {
   text: string;
   className?: string;
   delay?: number;
+  ember?: boolean;
 }) {
   const ref = useRef<HTMLSpanElement>(null);
   const inView = useInView(ref, { once: true, amount: 0.2 });
@@ -49,7 +51,7 @@ export function RevealWords({
           style={{ paddingBottom: "0.08em" }}
         >
           <span
-            className="inline-block will-change-transform"
+            className={`inline-block will-change-transform${ember ? " text-ember" : ""}`}
             style={{
               opacity: inView ? 1 : 0,
               transform: inView ? "translateY(0)" : "translateY(105%)",

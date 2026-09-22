@@ -53,9 +53,7 @@ export function Services() {
             <h2 className="font-display mt-5 text-[2.1rem] leading-[0.95] font-extrabold tracking-[-0.03em] sm:text-6xl lg:text-7xl">
               <RevealWords text="ROOFING" />
               <br />
-              <span className="text-ember">
-                <RevealWords text="SOLUTIONS" delay={0.1} />
-              </span>
+              <RevealWords text="SOLUTIONS" delay={0.1} ember />
             </h2>
           </div>
           <Reveal delay={0.2}>

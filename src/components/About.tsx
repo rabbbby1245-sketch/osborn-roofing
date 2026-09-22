@@ -24,10 +24,7 @@ export function About() {
 
         <h2 className="font-display mt-6 max-w-4xl text-[2.1rem] leading-[0.95] font-extrabold tracking-[-0.03em] sm:text-6xl lg:text-7xl">
           <RevealWords text="QUALITY." />
-          <span className="text-ember">
-            {" "}
-            <RevealWords text="RELIABILITY." delay={0.1} />
-          </span>{" "}
+          <RevealWords text="RELIABILITY." delay={0.1} ember />{" "}
           <RevealWords text="SAFETY." delay={0.2} />
         </h2>
 
